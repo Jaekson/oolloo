@@ -1,0 +1,10 @@
+# Standard
+._*
+.DS_Store
+Thumbs.db
+
+# PhpStorm
+.idea/
+
+# VSCode
+.vscode/

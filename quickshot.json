@@ -1,0 +1,12 @@
+{
+  "concurrency": 20,
+  "targets": [
+    {
+      "name": "Debut Dev theme",
+      "url": "https://fda217c96a8d2579327769221fd4aebb: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@oolloostore.myshopify.com/admin/api",
+      "theme_name": "Debut Dev",
+      "theme_id": 113949147301
+    }
+  ],
+  "configVersion": 2
+}
