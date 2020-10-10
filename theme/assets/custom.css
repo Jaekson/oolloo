@@ -1,0 +1,14 @@
+/*================ Header Custom ================*/
+.site-header {
+    border-bottom: none;
+}
+
+@media only screen and (min-width: 750px) {
+    .site-header {
+        padding: 0 5vw 0 10vw;
+    }
+
+    .site-nav {
+        margin: 10px 0;
+    }
+}
