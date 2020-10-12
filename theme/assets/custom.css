@@ -11,4 +11,13 @@
     .site-nav {
         margin: 10px 0;
     }
+
+    #header-container:hover .site-header {
+        transform: translateY(0);
+    }
+
+    .site-header {
+        transform: translateY(-100%);
+        transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }

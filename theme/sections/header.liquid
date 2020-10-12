@@ -55,15 +55,8 @@
   {% endif %}
 
   <style>
-    #header-container:hover .site-header {
-      transform: translateY(0);
-    }
-
     .site-header {
       background-color: {{section.settings.color_menubar}};
-      
-      transform: translateY(-100%);
-      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .site-header__mobile-nav {
@@ -128,10 +121,12 @@
       <div class="grid__item {% if section.settings.align_logo == 'left' %}medium-up--one-quarter{% else %}medium-up--one-third medium-up--push-one-third{% endif %} text-right site-header__icons{% if shop.customer_accounts_enabled %} site-header__icons--plus{% endif %}">
         <div class="site-header__icons-wrapper">
 
+          {% comment %} -- search icon
           <button type="button" class="btn--link site-header__icon site-header__search-toggle js-drawer-open-top" data-predictive-search-open-drawer>
             {% include 'icon-search' %}
             <span class="icon__fallback-text">{{ 'layout.navigation.search' | t }}</span>
-          </button>
+          </button> 
+          {% endcomment %}
 
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
