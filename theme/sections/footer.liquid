@@ -140,6 +140,8 @@
 <footer class="site-footer critical-hidden" role="contentinfo" data-section-id="{{ section.id }}" data-section-type="footer-section">
   <div class="page-width">
     <div class="site-footer__content">
+    	<img class="site-footer__logo-image" src="https://cdn.shopify.com/s/files/1/0097/7171/2608/files/logo-white.png?v=1589491580">
+  
       {%- for block in section.blocks -%}
 
         <div class="site-footer__item
@@ -337,14 +339,30 @@
         </div>
       {%- endif -%}
 
-      <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">
-        <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-        <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
+      <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">Copyright
+        <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}.</small>
+        <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">All right reserved</small>
       </div>
     </div>
   </div>
 </footer>
 
+<script>
+// ===== Scroll to Top =====
+$(window).scroll(function() {
+  if ($(this).scrollTop() >= 300) {        // If page is scrolled more than 50px
+      $('#return-to-top').fadeIn(200);    // Fade in the arrow
+  } else {
+      $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+  }
+});
+
+$('#return-to-top').click(function() {      // When arrow is clicked
+  $('body,html').animate({
+      scrollTop : 0                       // Scroll to top of body
+  }, 500);
+});
+</script>
 
 
 {% schema %}
