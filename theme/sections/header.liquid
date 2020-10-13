@@ -66,6 +66,12 @@
     .mobile-nav-wrapper {
       background-color: {{section.settings.color_menubar}};
     }
+
+    @media only screen and (max-width: 749px) {
+      .site-header__logo-image {
+        max-width: {{ section.settings.logo_max_width | escape }}px;
+      }
+    }
   </style>
   
   <header class="site-header{% if section.settings.align_logo == 'left' %} border-bottom logo--left{% else %} logo--center{% endif %}" role="banner">

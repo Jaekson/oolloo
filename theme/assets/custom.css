@@ -57,14 +57,14 @@
         justify-content: flex-start;
     }
 
-    /* #header-container:hover .site-header {
+    #header-container:hover .site-header {
         transform: translateY(0);
     }
 
     .site-header {
         transform: translateY(-100%);
         transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    } */
+    }
 }
 
 @media only screen and (max-width: 749px) {
@@ -83,3 +83,4 @@
         margin-right: auto;
     }
 }
+/*================ Header Custom End ================*/
