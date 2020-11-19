@@ -53,14 +53,12 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/New_logo.png",
           "logo_max_width": 100,
           "main_linklist": "main-menu",
           "color_menubar": "#333333",
           "message": false,
           "home_page_only": true,
           "message_text": "Announce something here",
-          "message_link": "",
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff"
         }
@@ -68,7 +66,6 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Landing_background_1.JPG",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "x-large",
@@ -82,26 +79,22 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "",
           "layout": "left",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "button_label": ""
         }
       },
       "hero-2": {
         "type": "hero",
         "settings": {
-          "image": "",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
           "text_size": "large",
           "title": "Image with text overlay",
           "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "button_label": ""
         }
       },
       "footer": {
@@ -111,28 +104,28 @@
             "type": "link_list",
             "settings": {
               "title": "",
-              "menu": "footer-menu-one"
+              "menu": "footer-menu-01"
             }
           },
           "1602573808143": {
             "type": "link_list",
             "settings": {
               "title": "",
-              "menu": "footer-menu-two"
+              "menu": "footer-menu-02"
             }
           },
           "1602574058163": {
             "type": "link_list",
             "settings": {
               "title": "",
-              "menu": "footer-menu-three"
+              "menu": "footer-menu-03"
             }
           },
           "1602574086559": {
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p><strong>GET IN TOUCH<\/strong><\/p>\n<p><a href=\"mailto:customerservice@oolloo.com\" title=\"mailto:customerservice@oolloo.com\">customerservice@oolloo.com<\/a><\/p>\n<p>(888) 888-8888<\/p>\n<p>4955 Mountainshyre Road. Reno, Nevada 89519<\/p>"
+              "text": "<p><strong>GET IN TOUCH<\/strong><\/p><p><a href=\"mailto:customerservice@oolloo.com\" title=\"mailto:customerservice@oolloo.com\">customerservice@oolloo.com<\/a><\/p><p>(888) 888-8888<\/p><p>4955 Mountainshyre Road. Reno, Nevada 89519<\/p>"
             }
           }
         },
@@ -179,7 +172,6 @@
           "1602600663781-1": {
             "type": "image",
             "settings": {
-              "image": "",
               "width": "50%",
               "alignment": "center"
             }
